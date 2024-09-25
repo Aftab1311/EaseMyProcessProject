@@ -45,7 +45,7 @@ export default function Footer({ }: Props) {
             </Link>
           </div>
           <div className='flex justify-center items-center gap-2 md:hidden mt-4'>
-            <MdLocationPin size={60} />
+            <MdLocationPin size={30} />
             <Link href="https://maps.app.goo.gl/CLqCQRnuQpAw1GfF9">
               <p className='max-w-md text-sm'>B1-114, Sector 11, Faridabad</p>
             </Link>

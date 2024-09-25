@@ -28,10 +28,10 @@ export const fundingItems = [
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[10%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>
@@ -66,7 +66,7 @@ export const valuationItems = [
     />
     <div className="absolute md:top-[40%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
           Investors Spend 3 minutes <br /> Deciding Your Fate
@@ -105,10 +105,10 @@ export const pitchItems = [
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>
@@ -143,7 +143,7 @@ export const accountingItems = [
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
           Investors Spend 3 minutes <br /> Deciding Your Fate
@@ -182,10 +182,10 @@ export const dealItems = [
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>
@@ -218,10 +218,10 @@ export const financialItems = [
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
-        Did You Know?
+        {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>

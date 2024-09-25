@@ -61,7 +61,7 @@ export default function Compilance() {
     // If this is the first of the last two boxes, we render the wrapper
     if (isLastTwoBoxes && index === funding.length - 2) {
       return (
-        <div key="last-two-wrapper" className="flex justify-center flex-col md:flex-row md:col-span-3 gap-4">
+        <div key="last-two-wrapper" className="flex justify-center flex-col md:flex-row md:col-span-3 gap-4 md:gap-0">
           {funding.slice(-2).map((fund, subIndex) => (
             <div
               key={`last-two-${subIndex}`}
