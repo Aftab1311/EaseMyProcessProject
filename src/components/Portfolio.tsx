@@ -3,15 +3,37 @@ import Heading from "./ui/Heading";
 import { TfiArrowTopRight } from "react-icons/tfi";
 
 export default function Portfolio() {
+  
+    const handleOpenPdf1 = () => {
+      // Replace the URL below with the path to your PDF file
+      window.open('/portfolio/pdf1.pdf', '_blank');
+    };
+
+    const handleOpenPdf2 = () => {
+      // Replace the URL below with the path to your PDF file
+      window.open('/portfolio/pdf2.pdf', '_blank');
+    }
+
+    const handleOpenPdf3 = () => {
+      // Replace the URL below with the path to your PDF file
+      window.open('/portfolio/pdf3.pdf', '_blank');
+    }
+
+    const handleOpenPdf4 = () => {
+      // Replace the URL below with the path to your PDF file
+      window.open('/portfolio/pdf4.pdf', '_blank');
+    }
   return (
     <section className="py-10 md:py-20 bg-[url('/images/hero/dotbg.png')] bg-cover bg-center">
       <Heading color="white pb-10 ">Our Portfolio</Heading>
       <div className="grid grid-cols-1 lg:grid-cols-2 mx-2 md:mx-40 gap-8 md:gap-10">
-        <div className="relative flex justify-center group">
+
+
+        <div className="relative flex justify-center group cursor-pointer" onClick={handleOpenPdf1}>
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/images/services/abcd.jpg"
+              src="/portfolio/s1.png"
               width={644}
               height={424}
               alt=""
@@ -23,16 +45,16 @@ export default function Portfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline">Financial Modelling</h1>
+            <h1 className="text-base md:text-xl underline">Business Valuation</h1>
             <h3 className="text-sm md:text-base underline">Project was based on valuation and information.</h3>
           </div>
         </div>
 
-        <div className="relative flex justify-center group">
+        <div className="relative flex justify-center group cursor-pointer" onClick={handleOpenPdf2}>
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/images/services/abcd2.jpg"
+              src="/portfolio/s2.png"
               width={644}
               height={424}
               alt=""
@@ -44,16 +66,16 @@ export default function Portfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline">Valuation</h1>
+            <h1 className="text-base md:text-xl underline">Financial Modeling</h1>
             <h3 className="text-sm md:text-base underline">Project was based on valuation and information.</h3>
           </div>
         </div>
 
-        <div className="relative flex justify-center group">
+        <div className="relative flex justify-center group cursor-pointer" onClick={handleOpenPdf3}>
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/images/services/abcd3.jpg"
+              src="/portfolio/s3.png"
               width={644}
               height={424}
               alt=""
@@ -65,16 +87,16 @@ export default function Portfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline">Accounting & Compliance</h1>
+            <h1 className="text-base md:text-xl underline">Fp&a</h1>
             <h3 className="text-sm md:text-base underline">Project was based on valuation and information.</h3>
           </div>
         </div>
 
-        <div className="relative flex justify-center group">
+        <div className="relative flex justify-center group cursor-pointer" onClick={handleOpenPdf4}>
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/images/services/abcd4.jpg"
+              src="/portfolio/s4.png"
               width={644}
               height={424}
               alt=""
@@ -86,7 +108,7 @@ export default function Portfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline">Valuation Summary</h1>
+            <h1 className="text-base md:text-xl underline">Pitch deck</h1>
             <h3 className="text-sm md:text-base underline">Project was based on valuation and information.</h3>
           </div>
         </div>

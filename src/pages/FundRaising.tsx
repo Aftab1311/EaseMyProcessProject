@@ -39,6 +39,8 @@ const FundRaising = () => {
     },
   ];
 
+  
+
   return (
     <main className={`flex flex-col overflow-x-hidden bg-white min-h-screen w-full ${poppins.className}`}>
       <Head>
