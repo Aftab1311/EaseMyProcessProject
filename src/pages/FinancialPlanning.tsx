@@ -197,7 +197,7 @@ const FinancialPlanning = () => {
 
         {/* Top Content Box */}
         <div className="md:absolute md:-top-14 md:left-1/2 md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-abse md:text-lg mb-2 font-bold text-center">Save Time</h3>
             <p className="text-[12px] md:text-sm text-center">
               Replicated duties take up a lot of an employee's time. Each month,
@@ -208,7 +208,7 @@ const FinancialPlanning = () => {
 
         {/* Right Content Box */}
         <div className="md:absolute md:top-1/2 md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-abse md:text-lg mb-2 font-bold text-center">Boost Accuracy</h3>
             <p className="text-[12px] md:text-sm text-center">
               Obtain accurate financial data and personalized dashboards.
@@ -218,7 +218,7 @@ const FinancialPlanning = () => {
 
         {/* Bottom Content Box */}
         <div className="md:absolute md:-bottom-14 md:right-[13%] md:transform  w-[90%] md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-abse md:text-lg mb-2 font-bold text-center">Boost Efficiency</h3>
             <p className="text-[12px] md:text-sm text-center">
               With our Excel training, team productivity can rise by as much as
@@ -229,7 +229,7 @@ const FinancialPlanning = () => {
 
         {/* Left Content Box */}
         <div className="md:absolute md:top-1/2 md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%] ">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-abse md:text-lg mb-2 font-bold text-center">Make Wise Choices</h3>
             <p className="text-[12px] md:text-sm text-center">
               Examine expenses to develop more effective pricing plans.
@@ -239,7 +239,7 @@ const FinancialPlanning = () => {
 
         {/* Top Left Box (optional) */}
         <div className="md:absolute md:-bottom-14 md:left-[13%] md:transform  w-[90%] md:w-[30%]">
-          <div className="border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className="border border-gray-300 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-abse md:text-lg mb-2 font-bold text-center">Grow Quicker</h3>
             <p className="text-[12px] md:text-sm text-center">
               To increase sales and profits, comprehend pricing, rivalry, and

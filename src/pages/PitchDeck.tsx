@@ -85,8 +85,8 @@ const PitchDeck = () => {
   </div>
 
   {/* Top Left Content Box */}
-  <div className="md:absolute md:-top-0 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute md:-top-6 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+    <div className=" border border-gray-200 md:h-[140px] flex justify-center items-center flex-col rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[0].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[0].description}</p>
     </div>
@@ -94,15 +94,15 @@ const PitchDeck = () => {
 
   {/* Top Right Content Box */}
   <div className="md:absolute md:top-[50%] md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+    <div className=" border border-gray-200 md:h-[140px] flex justify-center items-center flex-col rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[1].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[1].description}</p>
     </div>
   </div>
 
   {/* Bottom Right Content Box */}
-  <div className="md:absolute md:-bottom-0 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute md:-bottom-6 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+    <div className=" border border-gray-200 md:h-[140px] flex justify-center items-center flex-col rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[2].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[2].description}</p>
     </div>
@@ -110,7 +110,7 @@ const PitchDeck = () => {
 
   {/* Bottom Left Content Box */}
   <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+    <div className=" border border-gray-200 md:h-[140px] flex justify-center items-center flex-col rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[3].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[3].description}</p>
     </div>

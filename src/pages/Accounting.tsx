@@ -74,7 +74,7 @@ const Accounting = () => {
 
             {/* Surrounding Content Boxes */}
             <div className="md:absolute md:-top-20 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Save money:</h3>
                 <p className="text-[12px] md:text-sm text-center">
                   With astute bookkeeping, you can reduce your accounting and
@@ -84,7 +84,7 @@ const Accounting = () => {
             </div>
 
             <div className="md:absolute md:top-[50%] md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Accurate Records</h3>
                 <p className="text-[12px] md:text-sm text-center">
                   Maintain flawless records and receive monthly financial
@@ -94,7 +94,7 @@ const Accounting = () => {
             </div>
 
             <div className="md:absolute md:-bottom-10 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Easy Tax Filing:</h3>
                 <p className="text-[12px] md:text-sm text-center">
                   {" "}
@@ -104,7 +104,7 @@ const Accounting = () => {
             </div>
 
             <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
                   Financial Health:
                 </h3>

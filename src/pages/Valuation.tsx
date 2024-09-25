@@ -88,7 +88,7 @@ const Valuation = () => {
             Many companies require capital, but our approach is distinct:
           </h2>
           </div>
-          <div className="relative w-full h-[600px] flex gap-6 flex-col md:flex-row items-center justify-center my-40 md:my-20">
+          <div className="relative w-full h-[600px] flex gap-6 flex-col md:flex-row items-center justify-center my-40 md:my-24">
   {/* Central Image */}
   <div className="absolute w-[400px] h-[300px] md:flex items-center justify-center hidden ">
     <Image
@@ -101,39 +101,39 @@ const Valuation = () => {
   </div>
 
   
-  <div className="md:absolute md:-top-14 md:left-1/2 md:transform md:-translate-x-1/2 w-[90%] md:w-[35%] mt-20 md:mt-0">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute  md:-bottom-14 md:left-1/2 md:transform md:-translate-x-1/2 w-[90%] md:w-[35%] mt-20 md:mt-0">
+    <div className=" border  md:h-[190px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[0].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[0].description}</p>
     </div>
   </div>
 
   
-  <div className="md:absolute md:top-1/2 md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[35%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute  md:top-1/2 md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[35%]">
+    <div className=" border  md:h-[190px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[1].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[1].description}</p>
     </div>
   </div>
 
   
-  <div className="md:absolute md:-bottom-14 md:right-[13%] md:transform  w-[90%] md:w-[35%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute  md:-top-14 md:right-[10%] md:transform  w-[90%] md:w-[35%]">
+    <div className=" border  md:h-[190px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[2].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[2].description}</p>
     </div>
   </div>
 
   
-  <div className="md:absolute md:top-1/2 md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[35%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute  md:top-1/2 md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[35%]">
+    <div className=" border  md:h-[190px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[3].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[3].description}</p>
     </div>
   </div>
 
-  <div className="md:absolute md:-bottom-14 md:left-[13%] md:transform  w-[90%] md:w-[35%]">
-    <div className=" border border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
+  <div className="md:absolute  md:-top-14 md:left-[10%] md:transform  w-[90%] md:w-[35%]">
+    <div className=" border  md:h-[190px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 cursor-pointer">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[4].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[4].description}</p>
     </div>

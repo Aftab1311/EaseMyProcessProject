@@ -82,28 +82,28 @@ const FundRaising = () => {
 
   {/* Surrounding Content Boxes */}
   <div className="md:absolute md:-top-20 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-    <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+    <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[0].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[0].description}</p>
     </div>
   </div>
 
   <div className="md:absolute md:top-[50%] md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-    <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+    <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[1].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[1].description}</p>
     </div>
   </div>
 
-  <div className="md:absolute md:-bottom-10 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-    <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+  <div className="md:absolute md:-bottom-14 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+    <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[2].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[2].description}</p>
     </div>
   </div>
 
   <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-    <div className="border border-gray-200 rounded-lg p-6 shadow-md">
+    <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[3].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[3].description}</p>
     </div>

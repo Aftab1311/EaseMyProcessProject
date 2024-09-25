@@ -39,6 +39,9 @@ const Process = () => {
             fontSize: "4rem",
             fontWeight: "bold",
             color: "#d2042d",
+            textDecoration: "underline",
+            marginTop: "2rem",
+            marginBottom: "2rem",
           }}
         >
           Process
@@ -114,6 +117,7 @@ const Process = () => {
             </div>
           </div>
         </div>
+        <div className="border-b-2 border-slate-500 mx-10"></div>
       </div>
       <div className="md:hidden">
         <div style={{ padding: "10px" }} className="text-center">
@@ -126,6 +130,7 @@ const Process = () => {
             </div>
           ))}
         </div>
+        
       </div>
     </>
   );

@@ -57,7 +57,7 @@ const DealAdvisory = () => {
 
     <div className="w-full flex justify-center flex-col items-center my-10">
       <h1  className="text-4xl font-bold text-[#a60424] md:text-7xl my-6">Why Opt for  Us?</h1>
-      <h2 className="text-base md:text-xl w-[90%] text-center my-2">
+      <h2 className="text-base md:text-xl w-[90%] text-center my-2 md:mb-10">
       We offer unique solutions tailored to your needs.
       </h2>
      
@@ -72,8 +72,8 @@ const DealAdvisory = () => {
         </div>
 
         {/* Top Content Box */}
-        <div className="md:absolute md:-top-14 md:left-1/2 md:transform md:-translate-x-1/2 w-[90%]  md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+        <div className="md:absolute md:-top-24 md:left-1/2 md:transform md:-translate-x-1/2 w-[90%]  md:w-[30%]">
+          <div className=" border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-base md:text-lg mb-2 font-bold text-center">Skilled Guidance:</h3>
             <p className="text-[12px] md:text-sm text-center">
             Provided by a former Big 4 consultant with extensive knowledge of large-scale transactions in India.
@@ -83,7 +83,7 @@ const DealAdvisory = () => {
 
         {/* Right Content Box */}
         <div className="md:absolute md:top-1/2 md:right-10 md:transform md:-translate-y-1/2 w-[90%]  md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-base md:text-lg mb-2 font-bold text-center">Full-Service Advisory:</h3>
             <p className="text-[12px] md:text-sm text-center">
             We handle every aspect, from identifying prospects to completing transactions. Our in-depth knowledge of the market allows us to identify the most favorable investment opportunities in India.
@@ -92,18 +92,18 @@ const DealAdvisory = () => {
         </div>
 
         {/* Bottom Content Box */}
-        <div className="md:absolute md:-bottom-14 md:right-[13%] md:transform  w-[90%]  md:w-[30%]">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+        <div className="md:absolute md:-bottom-24 md:mt-10 md:right-[13%] md:transform  w-[90%]  md:w-[30%]">
+          <div className=" border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-base md:text-lg mb-2 font-bold text-center">Startup Specialization:</h3>
             <p className="text-[12px] md:text-sm text-center">
-            We assist with exit planning and startup setup. Over 50,000 Indian companies received $14 billion in investment in 2023..
+            We assist with exit planning and startup setup. Over 50,000 Indian companies received $14 billion in investment in 24 md:mt-1023..
             </p>
           </div>
         </div>
 
         {/* Left Content Box */}
         <div className="md:absolute md:top-1/2 md:left-10 md:transform md:-translate-y-1/2 w-[90%]  md:w-[30%] ">
-          <div className=" border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+          <div className=" border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-base md:text-lg mb-2 font-bold text-center">Regulatory Knowledge:</h3>
             <p className="text-[12px] md:text-sm text-center">
             We are aware of the intricate tax and regulatory laws in India.
@@ -112,8 +112,8 @@ const DealAdvisory = () => {
         </div>
 
         {/* Top Left Box (optional) */}
-        <div className="md:absolute md:-bottom-14 md:left-[13%] md:transform  md:w-[30%] w-[90%] ">
-          <div className="border border-gray-300 rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
+        <div className="md:absolute md:-bottom-24 md:mt-10 md:left-[13%] md:transform  md:w-[30%] w-[90%] ">
+          <div className="border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
             <h3 className="text-base md:text-lg mb-2 font-bold text-center">client Focus:</h3>
             <p className="text-[12px] md:text-sm text-center">
             In an economy that is expanding quickly, we address problems promptly and communicate effectively

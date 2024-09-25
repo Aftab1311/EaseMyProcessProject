@@ -58,9 +58,9 @@ const services = [
 
 export default function MainServices() {
   return (
-    <div className="w-full py-10 bg-[#a60424] -mt-24" id="services">
+    <div className="w-full py-10 bg-[url('/services/bgtext.jpg')] bg-cover bg-center min-h-[800px] -mt-24" id="services">
       <div className="container mx-auto">
-        <h1 className="text-5xl text-white font-bold flex justify-center py-10 mt-10">
+        <h1 className="text-7xl text-white font-bold flex justify-center py-10 mt-10">
           Services
         </h1>
 

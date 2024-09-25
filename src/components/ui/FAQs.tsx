@@ -19,7 +19,7 @@ export default function FAQs({ FaqTableData = [], heading }: FAQProps) {
 
   return (
     <div className="py-12">
-      <Heading>{heading || "FAQs"}</Heading>
+      <h1 className="text-5xl text-[#d2042d] flex justify-center underline font-bold">{heading || "FAQs"}</h1>
       <div className="space-y-4 max-w-screen-xl mx-auto">
         {FaqTableData.map((qa, index) => (
           <details
