@@ -3,14 +3,14 @@ import Image from "next/image";
 export const fundingItems = [
   <div className="relative">
     <Image
-      src="/slider1.png"
+      src="/carousel/fund2.jpg"
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
-    <div className="absolute md:top-[40%] md:left-[40rem] p-4 text-white top-[10%] left-[10rem]">
-      <div className="text-xl md:text-[2.5rem] font-bold">
+    <div className="absolute md:top-[40%] md:left-[44rem] p-4 text-white top-[10%] left-[10rem]">
+      <div className="text-xl md:text-[3rem] font-bold">
         Your Business,{" "}
         <span className="text-[#D2042D]">
           Our Priority <br /> Get Funded Today
@@ -20,11 +20,11 @@ export const fundingItems = [
   </div>,
   <div className="relative">
     <Image
-      src="/slider2.png"
+      src="/carousel/fund3.png"
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={` h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[10%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
@@ -45,7 +45,7 @@ export const valuationItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[40%] md:left-[38rem] p-4 text-white top-[14%] left-[10rem]">
       <div className="text-base md:text-[2.5rem] font-bold">
@@ -62,7 +62,7 @@ export const valuationItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[40%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
@@ -83,7 +83,7 @@ export const pitchItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[10rem]">
       <div className="text-base md:text-[2.5rem] font-bold">
@@ -101,7 +101,7 @@ export const pitchItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
@@ -122,7 +122,7 @@ export const accountingItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[40rem] p-4 text-white top-[12%] left-[10rem]">
       <div className="text-base md:text-[2.5rem] font-bold ">
@@ -139,7 +139,7 @@ export const accountingItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
@@ -160,7 +160,7 @@ export const dealItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[40rem] p-4 text-white top-[14%] left-[10rem]">
       <div className="text-[14px] md:text-[2.5rem] font-bold">
@@ -178,7 +178,7 @@ export const dealItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
@@ -199,7 +199,7 @@ export const financialItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[40rem] p-4 text-white top-[12%] left-[10rem]">
       <div className="text-base md:text-[2.5rem] font-bold">
@@ -214,7 +214,7 @@ export const financialItems = [
       alt="offer"
       width={2000}
       height={2000}
-      className={`object-cover`}
+      className={`object-cover h-[700px]`}
     />
     <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">

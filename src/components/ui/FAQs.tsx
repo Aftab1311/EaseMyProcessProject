@@ -12,7 +12,7 @@ export default function FAQs({ FaqTableData = [], heading }: FAQProps) {
     return answer
       .replace(/-●/g, "●")
       .replace(/●/g, "<br>●") // Ensure "●" starts on a new line
-      .replace(/•/g, "<br>---");
+      .replace(/•/g, "<br>&nbsp;&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;");
 
     // Ensure any number followed by . starts on a new line
   };

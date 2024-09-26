@@ -33,7 +33,7 @@ export default function Portfolio() {
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/portfolio/s1.png"
+              src="/portfolio/port1.png"
               width={644}
               height={424}
               alt=""
@@ -54,7 +54,7 @@ export default function Portfolio() {
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/portfolio/s2.png"
+              src="/portfolio/port2.png"
               width={644}
               height={424}
               alt=""
@@ -75,7 +75,7 @@ export default function Portfolio() {
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/portfolio/s3.png"
+              src="/portfolio/port3.png"
               width={644}
               height={424}
               alt=""
@@ -87,7 +87,7 @@ export default function Portfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline">Fp&a</h1>
+            <h1 className="text-base md:text-xl underline">Financial Planning & Analysis</h1>
             <h3 className="text-sm md:text-base underline">Project was based on valuation and information.</h3>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function Portfolio() {
           <div className="rounded-2xl overflow-hidden w-[544px] md:h-[424px]">
             <Image
               className="rounded-2xl  hover:scale-110 transition-transform duration-1000 "
-              src="/portfolio/s4.png"
+              src="/portfolio/port4.png"
               width={644}
               height={424}
               alt=""

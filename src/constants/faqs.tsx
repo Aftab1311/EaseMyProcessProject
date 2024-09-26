@@ -455,9 +455,9 @@ export const pitchFaqs = [
       ● <strong>Burn Rate Definition:</strong>
         This measures how quickly your startup is spending its cash reserves.
       ● <strong>Calculation Methods:</strong><br/>
-        Gross Burn Rate: Total operating expenses over a specific period.
+         <strong>1.</strong> Gross Burn Rate: Total operating expenses over a specific period.
         •Formula: Gross Burn Rate = Total Cash Outflows (Expenses) / Time Period (e.g., Month)<br/>
-        Net Burn Rate: Considers both cash outflows and inflows to show the net cash used.
+         <strong>2.</strong> Net Burn Rate: Considers both cash outflows and inflows to show the net cash used.
         •Formula: Net Burn Rate = (Total Cash Outflows - Total Cash Inflows) / Time Period )
       ● <strong>Example:</strong>
         If your startup has ₹200,000 in monthly expenses and ₹50,000 in monthly revenue:
@@ -473,10 +473,9 @@ export const pitchFaqs = [
       ● <strong>Financial Complexity Increases:</strong>
         As your financial needs grow, a CFO can provide the necessary expertise.
       ● <strong>Key Areas of Support:</strong>
-      <br/>
-        <strong>1.</strong> Creating robust financial models and forecasts.<br/>
-        <strong>2.</strong> Managing investor relations and fundraising efforts.<br/>
-        <strong>3.</strong> Implementing financial controls and reporting processes.
+         •Creating robust financial models and forecasts.
+         •Managing investor relations and fundraising efforts.
+         •Implementing financial controls and reporting processes.
     `,
   },
   {

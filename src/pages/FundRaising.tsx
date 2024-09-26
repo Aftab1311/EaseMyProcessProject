@@ -9,6 +9,8 @@ import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { fundFaqs } from "@/constants/faqs";
 import Image from "next/image";
+import { fundingItems } from "@/constants/carousel";
+import Hero from "@/components/Hero";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -65,6 +67,8 @@ const FundRaising = () => {
       </Head>
       <Navbar />
 
+      <Hero items={fundingItems} />
+
       <div className="text-center mt-[91px] md:mt-[140px] my-20">
         <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] text-center font-bold my-4">Why Choose Us?</h1>
         <h2 className="text-sm md:text-xl mb-32 md:mb-28 w-[90%] md:w-full">
@@ -113,7 +117,7 @@ const FundRaising = () => {
 </div>
 
       </div>
-
+     
       <Funding />
       <ContactUs />
       <Process />
