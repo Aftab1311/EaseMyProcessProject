@@ -69,7 +69,7 @@ export const valuationItems = [
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>
@@ -146,7 +146,7 @@ export const accountingItems = [
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          Investors Spend 3 minutes <br /> Deciding Your Fate
+          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
         </span>
       </div>
     </div>
