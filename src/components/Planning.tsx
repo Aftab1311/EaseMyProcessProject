@@ -5,6 +5,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { FaRobot } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 
 export default function Planning() {
@@ -32,6 +33,18 @@ export default function Planning() {
         desc: " Enhance the abilities of your group with customized Excel instruction. Boost output, improve data analysis, and streamline .",
         icon: <FaBriefcase />,
         bg: "/images/hero/ser4.png",
+    },
+    {
+        title: "Forecast with Confidence",
+        desc: " Navigate an uncertain future with multi-period, multi-segment, and multi-currency reporting. We provide comprehensive insights into your business performance across different timeframes, divisions, and currencies. Make informed decisions for sustainable growth.",
+        icon: <IoStatsChart  />,
+        bg: "/images/hero/ser5.png",
+    },
+    {
+        title: "Practical Budgeting",
+        desc: " We develop easy to update budgets in excel, compare with actual results which enable smart decision making. This is crucial for navigating today's ever-changing business landscape. Make data-driven decisions with confidence.",
+        icon: <FaMoneyBillWave  />,
+        bg: "/images/hero/ser6.png",
     },
    
     ]

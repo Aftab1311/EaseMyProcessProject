@@ -51,16 +51,14 @@ const Accounting = () => {
       <div className="w-full flex justify-center">
         <div className="w-full flex justify-center flex-col">
           <div className="flex justify-center w-full items-center md:mt-[80px] flex-col">
-          <h1
-            className="text-4xl md:text-7xl mb-4 text-[#a60424] text-center font-bold my-8"
-          >
-            Just Why Opt for EaseMyProcess?
-          </h1>
-          <h2  className="w-full flex justify-center text-sm md:text-xl md:mb-8">
-            We offer unique solutions tailored to your needs.
-          </h2>
+            <h1 className="text-4xl md:text-7xl mb-4 text-[#a60424] text-center font-bold my-8">
+              Just Why Opt for EaseMyProcess?
+            </h1>
+            <h2 className="w-full flex justify-center text-sm md:text-xl md:mb-8">
+              Cut Your Accounting Costs with Smart Bookkeeping.
+            </h2>
           </div>
-          <div className="relative w-full h-[500px] flex flex-col gap-6 md:flex-row items-center justify-center my-20">
+          <div className="relative w-full h-[500px] flex flex-col gap-6 md:flex-row items-center justify-center mt-20">
             {/* Central Circular Image */}
             <div className="absolute w-[400px] h-[400px] md:flex items-center justify-center hidden ">
               <Image
@@ -74,43 +72,51 @@ const Accounting = () => {
 
             {/* Surrounding Content Boxes */}
             <div className="md:absolute md:-top-20 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
-                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Save money:</h3>
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
+                  Professional Expertise Meets Advanced Technology
+                </h3>
                 <p className="text-[12px] md:text-sm text-center">
-                  With astute bookkeeping, you can reduce your accounting and
-                  compliance expenses by 60%.
+                  Save 60% on your accounting and compliance expenses with our
+                  professional bookkeeping services, enhanced by innovative
+                  technology.
                 </p>
               </div>
             </div>
 
             <div className="md:absolute md:top-[50%] md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
-                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Accurate Records</h3>
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
+                  Seamless Tax Filing and Financial Tracking
+                </h3>
                 <p className="text-[12px] md:text-sm text-center">
-                  Maintain flawless records and receive monthly financial
-                  statements that are easy to understand.
+                  Ensure precise documentation for hassle-free tax filing,
+                  helping you avoid costly penalties, while keeping a close eye
+                  on your business's financial health.
                 </p>
               </div>
             </div>
 
-            <div className="md:absolute md:-bottom-10 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+            {/* <div className="md:absolute md:-bottom-10 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
               <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
-                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">Easy Tax Filing:</h3>
+                <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
+                </h3>
                 <p className="text-[12px] md:text-sm text-center">
                   {" "}
                   Accurate tax files help you avoid penalties and interest.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[128px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
-                  Financial Health:
+                  Monthly Reconciliation for Clean Books
                 </h3>
                 <p className="text-[12px] md:text-sm text-center">
                   {" "}
-                  Monitor and enhance the financial health of your company.
+                  Receive monthly account reconciliations that guarantee
+                  accurate and organized financial records.
                 </p>
               </div>
             </div>

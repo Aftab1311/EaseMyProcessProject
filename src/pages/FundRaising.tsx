@@ -4,7 +4,7 @@ import Head from "next/head";
 import Navbar from "@/components/ui/navbar";
 import Funding from "@/components/Funding";
 import ContactUs from "@/components/ContactUs";
-import Process from "@/components/Process";
+import FundProcess from "@/components/FundProcess";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { fundFaqs } from "@/constants/faqs";
@@ -20,25 +20,18 @@ const poppins = Poppins({
 const FundRaising = () => {
   const whyChooseUsItems = [
     {
-      title: "Multi-Method Valuation",
-      description: "We leverage a blend of industry-leading methodologies—including market, income, and cost approaches—to deliver a comprehensive and accurate business assessment.",
+      title: "Strategic Solutions",
+      description: "Develop tailored funding strategies that align with your unique business goals and market position, ensuring you effectively capture investor interest.",
     },
     {
-      title: "Data-Driven Excellence",
-      description: "Our valuations are grounded in meticulous research, incorporating competitor analysis, industry trends, and economic factors, ensuring you receive insights based on real-world data.",
+      title: "Data-Driven Strategies",
+      description: "Leverage analytics and market research to inform your approach, showcasing the viability and potential of your business to attract the right sources of capital.",
     },
     {
-      title: "Reliable Financial Modeling",
-      description: "We create robust financial models featuring detailed forecasts, key ratios, and interactive dashboards, so your projections are supported by solid evidence.",
+      title: "End-To-End Support",
+      description: "Receive comprehensive assistance throughout the fundraising process, from initial planning to final negotiations, empowering you to navigate challenges and secure the funding you need.",
     },
-    {
-      title: "Decades of Expertise",
-      description: "With over ten years in top consulting firms, our experienced team handles complex valuations with precision and adheres to international standards, providing you with unmatched expertise.",
-    },
-    {
-      title: "Investor-Approved Reports",
-      description: "Our high-quality valuations are consistently recognized and accepted by Big 4 accounting firms, reflecting their credibility and meeting the highest investor expectations.",
-    },
+   
   ];
 
   
@@ -69,12 +62,12 @@ const FundRaising = () => {
 
       <Hero items={fundingItems} />
 
-      <div className="text-center mt-[91px] md:mt-[140px] my-20">
+      <div className="text-center mt-[91px] md:mt-[140px] ">
         <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] text-center font-bold my-4">Why Choose Us?</h1>
-        <h2 className="text-sm md:text-xl mb-32 md:mb-28 w-[90%] md:w-full">
+        <h2 className="text-sm md:text-xl mb-32 md:mb-40 w-[90%] md:w-full">
           Many companies require capital, but our approach is distinct:
         </h2>
-        <div className="relative w-full h-[500px] flex flex-col gap-6 md:gap-0 my-10 md:flex-row items-center justify-center">
+        <div className="relative w-full h-[400px] flex flex-col gap-6 md:gap-0 my-10 md:flex-row items-center justify-center">
   {/* Central Circular Image */}
   <div className="absolute w-[400px] h-[400px] items-center justify-center hidden md:flex">
     <Image
@@ -87,7 +80,7 @@ const FundRaising = () => {
   </div>
 
   {/* Surrounding Content Boxes */}
-  <div className="md:absolute md:-top-20 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+  <div className="md:absolute md:-top-32 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
     <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[0].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[0].description}</p>
@@ -101,26 +94,21 @@ const FundRaising = () => {
     </div>
   </div>
 
-  <div className="md:absolute md:-bottom-14 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
+  <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
     <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
       <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[2].title}</h3>
       <p className="text-[12px] md:text-sm">{whyChooseUsItems[2].description}</p>
     </div>
   </div>
 
-  <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-    <div className="border md:h-[168px] flex flex-col justify-center items-center border-gray-200 rounded-lg p-6 shadow-md">
-      <h3 className="text-base md:text-lg font-semibold mb-2">{whyChooseUsItems[3].title}</h3>
-      <p className="text-[12px] md:text-sm">{whyChooseUsItems[3].description}</p>
-    </div>
-  </div>
-</div>
+ 
+</div> 
 
       </div>
      
       <Funding />
       <ContactUs />
-      <Process />
+      <FundProcess />
       <FAQs FaqTableData={fundFaqs} heading="FAQs" />
       <Footer />
     </main>

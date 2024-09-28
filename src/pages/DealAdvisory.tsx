@@ -6,7 +6,7 @@ import WhyUs from "@/components/ui/WhyUs";
 import HomeService from "@/components/HomeService";
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/ui/navbar";
-import Process from "@/components/Process";
+import DealProcess from "@/components/DealProcess";
 import Portfolio from "@/components/Portfolio";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
@@ -125,7 +125,7 @@ const DealAdvisory = () => {
   </div>
       <Guidance/>
       <ContactUs/>
-      <Process/>
+      <DealProcess/>
       <FAQs FaqTableData={dealAdvisoryFaqs} heading="FAQs" />
       <Footer />
     </main>

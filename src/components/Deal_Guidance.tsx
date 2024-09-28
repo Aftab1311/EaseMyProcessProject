@@ -6,6 +6,7 @@ import { FaCogs } from "react-icons/fa";
 import { FaHandshake } from "react-icons/fa";
 import { FaConciergeBell } from "react-icons/fa";
 import { MdSupportAgent } from "react-icons/md";
+import { HiMiniClipboardDocumentCheck } from "react-icons/hi2";
 
 
 export default function Guidance() {
@@ -38,7 +39,13 @@ export default function Guidance() {
     title: "Support for Due Diligence",
     desc: "Encourage information sharing among interested parties.Recognize and handle important risks and difficulties.Do extensive research on tax-related issues.",
     icon: <MdSupportAgent />,
-    bg: "/images/hero/ser4.png",
+    bg: "/images/hero/ser6.png",
+  },
+  {
+    title: "Strategic Insights",
+    desc: "Deep market knowledge to identify prime investment opportunities in a market with a consistent history of 10-12 percent CAGR over the last 10 and 20 years. India is now the 5th largest equity market.",
+    icon: <HiMiniClipboardDocumentCheck />,
+    bg: "/images/hero/ser5.png",
   }]
 
 

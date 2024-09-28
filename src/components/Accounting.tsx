@@ -6,6 +6,7 @@ import { FaUserTie } from "react-icons/fa6";
 import { FaCreditCard } from "react-icons/fa6";
 import { FaFileInvoiceDollar } from "react-icons/fa";
 import { FaMapSigns } from "react-icons/fa";
+import { HiMiniClipboardDocumentCheck } from "react-icons/hi2";
 
 
 
@@ -13,34 +14,46 @@ import { FaMapSigns } from "react-icons/fa";
 export default function Compilance() {
 
   const funding = [{
-    title: "Comply with Indian regulations",
-    desc: "Precisely compute and submit monthly taxes due (TDS and GST).On-time returns (quarterly or monthly).Hearings and litigation help.Management of secretarial compliance.",
+    title: "End-to-End Accounting Solutions",
+    desc: "Experience seamless and precise accounting support tailored to your business needs. Our offerings include effortless daily record-keeping, accurate month-end or year-end adjustments, automated reconciliations, and a smooth transition to cloud-based accounting solutions.",
     icon: <FaBuildingFlag />,
     bg: "/images/hero/ser1.jpg",
   },
   {
-    title: "Professional Services for Audit Support",
-    desc: "Pre-audit planning and evaluation.Working together with auditors.",
+    title: "Comprehensive Financial Reporting",
+    desc: "Ensure your financial statements meet the highest standards with our expertise in compliance with I-GAAP and IFRS standards, delivering detailed and transparent financial statements.",
     icon: <FaUserTie />,
     bg: "/images/hero/ser2.jpg",
   },
   {
-    title: "Management of Accounts Receivable",
-    desc: "Effective invoice creation and delivery.Proactive collections and follow-up.Reconciliation of customer accounts. Reports and analysis that age.",
+    title: "Strategic Board Pack Preparation",
+    desc: "Empower your board with compelling and insightful materials designed to support strategic decision-making and drive your business forward. We provide comprehensive financial analysis, key performance indicator (KPI) dashboards, market and competitive insights, and customized reporting and presentations.",
     icon: <FaFileInvoiceDollar />,
     bg: "/images/hero/ser3.jpg",
   },
   {
-    title: "Management of Accounts Payable",
-    desc: "Simplify your payment procedures by processing and approving invoices accurately.Efficient scheduling of payments.The reconciliation of suppliers.Monitoring and documenting expenses.",
+    title: "Specialized Compliance Solutions",
+    desc: "Navigate India's complex regulatory landscape with confidence through our comprehensive GST and TDS compliance services. We ensure accurate monthly calculations and challan deposits, timely returns (monthly/quarterly), litigation support, and secretarial compliance management.",
     icon: <FaCreditCard />,
     bg: "/images/hero/ser4.png",
   },
   {
-    title: "Strategic Board Pack Assembly",
-    desc: "Assist the board in reaching strategic decisions:Thorough financial evaluation.KPI dashboards.Competitive and market insights.Tailored presentations and reports.",
+    title: "Expert Audit Support Services",
+    desc: "Facilitate a smooth audit process with our dedicated support, ensuring your financials are ready for review by Big 4 or other reputable audit firms. Our services encompass pre-audit preparation, review, and coordination with auditors.",
     icon: <FaMapSigns />,
-    bg: "/images/hero/ser4.png",
+    bg: "/images/hero/ser5.png",
+  },
+  {
+    title: "Accounts Receivable Management",
+    desc: "Streamline your cash flow and ensure timely collections with our comprehensive accounts receivable services. We handle efficient invoice generation and distribution, proactive follow-up and collections, customer account reconciliation, and aging reports.",
+    icon: <IoStatsChart  />,
+    bg: "/images/hero/ser6.png",
+  },
+  {
+    title: "Accounts Payable Management",
+    desc: "Optimize your payment processes and maintain strong supplier relationships with our expert accounts payable services, including accurate invoice processing, timely payment scheduling, supplier reconciliation, and expense tracking and reporting.",
+    icon: <HiMiniClipboardDocumentCheck  />,
+    bg: "/images/hero/ser7.jpg",
   },
 
   ]
