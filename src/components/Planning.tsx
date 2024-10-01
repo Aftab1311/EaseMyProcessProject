@@ -55,7 +55,7 @@ export default function Planning() {
          <div className="w-full py-10 bg-[#f6f6f6]">
        <div className="container mx-auto">
             <h1 className="text-2xl md:text-5xl text-[#d2042d] font-bold flex justify-center mb-10 text-center" >
-            Financial and Planning's Services
+            Financial Planning Services
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
   {funding.map((fund, index) => {
