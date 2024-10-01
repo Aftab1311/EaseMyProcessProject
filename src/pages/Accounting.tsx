@@ -88,9 +88,7 @@ const Accounting = () => {
                   Seamless Tax Filing and Financial Tracking
                 </h3>
                 <p className="text-[12px] md:text-sm text-center">
-                  Ensure precise documentation for hassle-free tax filing,
-                  helping you avoid costly penalties, while keeping a close eye
-                  on your business's financial health.
+                Maintain accurate records for stress-free tax filing, avoiding costly penalties while staying on top of your business's financial health.
                 </p>
               </div>
             </div>
@@ -113,8 +111,7 @@ const Accounting = () => {
                 </h3>
                 <p className="text-[12px] md:text-sm text-center">
                   {" "}
-                  Receive monthly account reconciliations that guarantee
-                  accurate and organized financial records.
+                  Get monthly account reconciliations to ensure accurate and well-organized financial records.
                 </p>
               </div>
             </div>
