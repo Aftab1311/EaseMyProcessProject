@@ -17,7 +17,7 @@ const navbarItems = [
   { id: 1, name: "About", link: "/#about-us" },
   { id: 2, name: "Business", link: "#" },
   { id: 3, name: "Services", link: "/#services" },
-  { id: 4, name: "Resources", link: "/security" },
+  { id: 4, name: "Resources", link: "/#clients" },
 ];
 
 const Navbar = () => {
