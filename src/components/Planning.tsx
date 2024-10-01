@@ -12,7 +12,7 @@ export default function Planning() {
      
     const funding = [{
         title: "Simplified Quarterly and Monthly Reporting",
-        desc: "For simple reporting, use Management Information Systems (MIS). We put up processes for reliable reporting so you may concentrate on in-depth research and strategic insights. Accurate Predicting Throughout Periods.Manage uncertainty by utilizing comprehensive reports across many departments and currencies. Learn about the performance of your company to make wise decisions and promote long-term expansion.",
+        desc: "For simplified reporting, use Management Information Systems (MIS). We establish processes for reliable reporting, allowing you to focus on in-depth analysis and strategic insights. Ensure accurate forecasting across periods. Manage uncertainty by leveraging comprehensive reports across multiple departments and currencies. Gain insights into your company's performance to make informed decisions and drive long-term growth.",
         icon: <FaCalendarAlt />,
         bg: "/images/hero/ser1.jpg",
     },
@@ -24,7 +24,7 @@ export default function Planning() {
     },
     {
         title: "Effective Automation of Workflows",
-        desc: "Use strong Excel formulas to automate chores and increase productivity.Align resources with growth-oriented strategic priorities.",
+        desc: "Use strong Excel formulas to automate chores and increase productivity. Align resources with growth-oriented strategic priorities.",
         icon: <FaRobot />,
         bg: "/images/hero/ser3.jpg",
     },
@@ -82,10 +82,10 @@ export default function Planning() {
                 <div className="absolute -mt-6 group-hover:mt-8 md:group-hover:mt-10 bg-red-600 transition group-hover:duration-300 group-hover:rounded-xl group-hover:border-2 group-hover:border-red-600 p-2 rounded-full text-3xl text-white mx-auto shadow-xl group-hover:bg-white group-hover:text-red-600">
                   {fund.icon}
                 </div>
-                <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-xl">
+                <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-lg">
                   {fund.title}
                 </h3>
-                <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[12px] md:group-hover:text-sm">
+                <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[10px] md:group-hover:text-[12px]">
                   {fund.desc}
                 </span>
               </div>
@@ -100,7 +100,7 @@ export default function Planning() {
       return (
         <div
           key={index}
-          className={`relative rounded-lg group mx-auto shadow-lg md:w-80 h-[20rem] md:h-80 overflow-hidden hover:shadow-2xl mb-10 global-shadow ${
+          className={`relative rounded-lg group mx-auto shadow-lg md:w-[365px] h-[24rem] md:h-[365px] overflow-hidden hover:shadow-2xl mb-10 global-shadow ${
             isLastBox ? 'md:col-span-3 md:flex md:justify-center' : ''
           }`}
         >
@@ -115,10 +115,10 @@ export default function Planning() {
             <div className="absolute -mt-6 group-hover:mt-8 md:group-hover:mt-10 bg-red-600 transition group-hover:duration-300 group-hover:rounded-xl group-hover:border-2 group-hover:border-red-600 p-2 rounded-full text-3xl text-white mx-auto shadow-xl group-hover:bg-white group-hover:text-red-600">
               {fund.icon}
             </div>
-            <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-xl">
+            <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-lg">
               {fund.title}
             </h3>
-            <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[12px] md:group-hover:text-sm">
+            <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[10px] md:group-hover:text-[12px]">
               {fund.desc}
             </span>
           </div>

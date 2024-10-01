@@ -55,7 +55,7 @@ const Accounting = () => {
               Just Why Opt for EaseMyProcess?
             </h1>
             <h2 className="w-full flex justify-center text-sm md:text-xl md:mb-8">
-              Cut Your Accounting Costs with Smart Bookkeeping.
+            Reduce Your Accounting Expenses with Efficient, Smart Bookkeeping Solutions.
             </h2>
           </div>
           <div className="relative w-full h-[500px] flex flex-col gap-6 md:flex-row items-center justify-center mt-20">
@@ -76,10 +76,8 @@ const Accounting = () => {
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
                   Professional Expertise Meets Advanced Technology
                 </h3>
-                <p className="text-[12px] md:text-sm text-center">
-                  Save 60% on your accounting and compliance expenses with our
-                  professional bookkeeping services, enhanced by innovative
-                  technology.
+                <p className="text-[12px] md:text-sm text-center my-2">
+                Save 60% on accounting and compliance costs with our tech-enhanced bookkeeping services.
                 </p>
               </div>
             </div>

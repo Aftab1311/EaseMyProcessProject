@@ -37,7 +37,7 @@ export default function Guidance() {
   },
   {
     title: "Support for Due Diligence",
-    desc: "Encourage information sharing among interested parties.Recognize and handle important risks and difficulties.Do extensive research on tax-related issues.",
+    desc: "Encourage information sharing among interested parties.Recognize and handle important risks and difficulties. Do extensive research on tax-related issues.",
     icon: <MdSupportAgent />,
     bg: "/images/hero/ser6.png",
   },

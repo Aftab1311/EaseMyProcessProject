@@ -16,7 +16,7 @@ const services = [
     icon: <RiPresentationFill />,
     bg: "/images/hero/ser1.jpg",
     href: "/FundRaising",
-    desc: "Are You Prepared to Expand Your Enterprise? We at EaseMyProcess assist you in obtaining the funding you require to expand your enterprise. Regardless We are here to help you achieve no matter what level you're at.",
+    desc: "Are you prepared to expand your enterprise? We at EaseMyProcess assist you in obtaining the funding you require to expand your enterprise. Regardless of what level you're at, we are here to help you achieve success.",
   },
   {
     title: "Valuation",
@@ -37,7 +37,7 @@ const services = [
     bg: "/images/hero/ser4.png",
     href: "/Accounting",
     icon: <IoStatsChart />,
-    desc: "Streamline yourfinancial processes and ensure compliance with EaseMyProcess. Save up to 60% on accounting costs with our professional. technology-driven services, from dailyrecord-keeping to comprehensive audit support and regulatory compliance.",
+    desc: "Streamline your financial processes and ensure compliance with EaseMyProcess. Save up to 60% on accounting costs with our professional. technology-driven services, from dailyrecord-keeping to comprehensive audit support and regulatory compliance.",
   },
   {
     title: "Financial Planning & Analysis",
@@ -51,7 +51,7 @@ const services = [
     bg: "/images/hero/ser6.png",
     href: "/DealAdvisory",
     icon: <FaFileInvoiceDollar />,
-    desc: "Maximize your investment opportunities and achieve successful deals with EaseMyProcess. We provide end-to-end deal advisory. strategic M&A structuring, and seamless transaction support, ensuring smart investments and strong exits.",
+    desc: "Maximize your investment opportunities and achieve successful deals with EaseMyProcess. We provide end-to-end deal advisory, strategic M&A structuring, and seamless transaction support ensuring smart investments and strong exits.",
   },
  
 ];

@@ -26,7 +26,7 @@ const DealProcess = () => {
     {
       heading: "Transaction implementation support ",
       description:
-        "Review of transaction documents",
+        " Review of transaction documents",
     },
   ];
   return (
@@ -96,7 +96,7 @@ const DealProcess = () => {
               Transaction implementation support 
               </h1>
               <p className="text-sm text-justify">
-              "Review of transaction documents
+              "Review of transaction documents"
               </p>
             </div>
             {/* <div className="w-[25%] flex flex-col gap-4 absolute right-48 top-[460px] ">

@@ -19,14 +19,13 @@ export default function Funding() {
   const funding = [
     {
       title: "Private Seed Funds",
-      desc: `Startup India Seed Fund Scheme used to raise equity capital of INR 10 Lacs and above`,
+      desc: `The Startup India Seed Fund Scheme was designed to raise equity capital starting from ₹10 lakhs and above.`,
       icon: <MdOutlineBusinessCenter />,
       bg: "/images/hero/ser7.jpg",
     },
     {
       title: "Venture Capital ",
-      desc: `We help you formulate business fundraising strategy highlighting your business' value and growth potential investors, inspiring them to inject capital.
-. 
+      desc: `We help you formulate business fundraising strategy highlighting your business' value and growth potential investors, inspiring them to inject capital. 
 `,
       icon: <FaHandHoldingUsd />,
       bg: "/images/hero/ser1.jpg",
