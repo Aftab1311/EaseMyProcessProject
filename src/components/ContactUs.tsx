@@ -11,10 +11,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        'service_25i2brm', // replace with your EmailJS service ID
-        'template_gvsuhax', // replace with your EmailJS template ID
+        'service_0es79rj', // replace with your EmailJS service ID
+        'template_0uykhfk', // replace with your EmailJS template ID
         form.current,
-        'WixpwZRHzPgpBSLUl' // replace with your EmailJS user ID
+        'pJ6zT5yQ407cqBzqG' // replace with your EmailJS user ID
       )
       .then(
         (result) => {
@@ -46,8 +46,8 @@ export default function ContactUs() {
             <h1 className="text-black text-3xl md:text-5xl">Obtain A</h1>
             <h1 className="text-[#d2042d] text-3xl md:text-5xl">Free Consultation Right Now</h1>
             <div className=" mt-10 md:mt-20 flex flex-col md:flex-row gap-4 md:gap-10">
-                <input type="text" placeholder="Name*" name="from_name" className="w-full p-2 rounded-md border-2 border-[#d5d5d5]" required />
-                <input type="email" placeholder="Email*" name="email_from" className="w-full p-2 rounded-md border-2 border-[#d5d5d5]" required />
+                <input type="text" placeholder="Name*" name="name" className="w-full p-2 rounded-md border-2 border-[#d5d5d5]" required />
+                <input type="email" placeholder="Email*" name="email" className="w-full p-2 rounded-md border-2 border-[#d5d5d5]" required />
             </div>
             <div className="flex flex-col md:flex-row gap-4 md:gap-10">
                 <input type="phone" placeholder="Phone" className="w-full p-2 rounded-md border-2 border-[#d5d5d5]"  />
