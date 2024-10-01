@@ -7,13 +7,22 @@ import Link from "next/link";
 
 type Props = {};
 
-export default function Footer({ }: Props) {
+export default function Footer({}: Props) {
   return (
     <footer className="bg-[#292929] px-12 py-12">
       <div className="flex justify-between items-center md:flex-row flex-col px-2 md:px-0 py-4">
-        <Image src="/navbarLogo.svg" width={1000} height={1000} alt="EaseMyProcess" className='w-32 mb-4 md;mb-0' />
-        <p className="text-white text-center mb-4 md:mb-0">&copy; {new Date().getFullYear()} All rights reserved by Ease My Business</p>
-        <div className='flex justify-center items-center gap-4'>
+        <Image
+          src="/navbarLogo.svg"
+          width={1000}
+          height={1000}
+          alt="EaseMyProcess"
+          className="w-32 mb-4 md;mb-0"
+        />
+        <p className="text-white text-center mb-4 md:mb-0">
+          &copy; {new Date().getFullYear()} All rights reserved by Ease My
+          Business
+        </p>
+        <div className="flex justify-center items-center gap-4">
           <FaFacebookF className="text-3xl text-white" />
           <FaInstagram className="text-3xl text-white" />
           <FaLinkedinIn className="text-3xl text-white" />
@@ -24,41 +33,36 @@ export default function Footer({ }: Props) {
 
       <div className="flex flex-col md:flex-row justify-between text-white text-sm">
         <div className="flex flex-col justify-start items-center md:items-start gap-y-3 ">
-          <Link href="/#about-us">
-            About
-          </Link>
-          <Link href="/">
-            Business
-          </Link>
-          <Link href="/#services">
-            Services
-          </Link>
-          <Link href="/security">
-            Resources
-          </Link>
+          <Link href="/#about-us">About</Link>
+          <Link href="/FundRaising">Fund Raising</Link>
+          <Link href="/Valuation">Valuation</Link>
+          <Link href="/PitchDeck">Pitch Deck</Link>
+          <Link href="/Accounting">Accounting</Link>
+          <Link href="/FinancialPlanning">Financial Planning</Link>
+          <Link href="/DealAdvisory">Deal Advisory</Link>
         </div>
-        <div className='flex justify-start items-start gap-y-4 flex-col'>
-          <div className='justify-center items-center gap-2 hidden md:flex'>
+        <div className="flex justify-start items-start gap-y-4 flex-col">
+          <div className="justify-center items-center gap-2 hidden md:flex">
             <MdLocationPin className="text-3xl" />
             <Link href="https://maps.app.goo.gl/CLqCQRnuQpAw1GfF9">
-              <p className='max-w-md text-sm'>B1-114, Sector 11, Faridabad</p>
+              <p className="max-w-md text-sm">B1-114, Sector 11, Faridabad</p>
             </Link>
           </div>
-          <div className='flex justify-center items-center gap-2 md:hidden mt-4'>
+          <div className="flex justify-center items-center gap-2 md:hidden mt-4">
             <MdLocationPin size={30} />
             <Link href="https://maps.app.goo.gl/CLqCQRnuQpAw1GfF9">
-              <p className='max-w-md text-sm'>B1-114, Sector 11, Faridabad</p>
+              <p className="max-w-md text-sm">B1-114, Sector 11, Faridabad</p>
             </Link>
           </div>
-          <div className='flex justify-center items-center gap-2'>
+          <div className="flex justify-center items-center gap-2">
             <MdAlternateEmail className=" text-3xl" />
-            <p className='max-w-lg text-sm'>info@easemyprocess.com</p>
+            <p className="max-w-lg text-sm">info@easemyprocess.com</p>
           </div>
-          <div className='flex justify-center items-center gap-2'>
+          <div className="flex justify-center items-center gap-2">
             <MdPhone className=" text-3xl" />
-            <div className='flex flex-col gap-1'>
-              <p className='max-w-lg text-sm'>+91-8295233256</p>
-              <p className='max-w-lg text-sm'>+1{" "}2764000049</p>
+            <div className="flex flex-col gap-1">
+              <p className="max-w-lg text-sm">+91-8295233256</p>
+              <p className="max-w-lg text-sm">+1 2764000049</p>
             </div>
           </div>
         </div>

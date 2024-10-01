@@ -73,7 +73,7 @@ const Accounting = () => {
 
             {/* Surrounding Content Boxes */}
             <div className="md:absolute md:-top-20 md:left-[50%] md:transform md:-translate-x-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
                   Professional Expertise Meets Advanced Technology
                 </h3>
@@ -84,7 +84,7 @@ const Accounting = () => {
             </div>
 
             <div className="md:absolute md:top-[50%] md:right-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
                   Seamless Tax Filing and Financial Tracking
                 </h3>
@@ -106,7 +106,7 @@ const Accounting = () => {
             </div> */}
 
             <div className="md:absolute md:top-[50%] md:left-10 md:transform md:-translate-y-1/2 w-[90%] md:w-[30%]">
-              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md">
+              <div className="border border-gray-200 md:h-[138px] flex flex-col justify-center items-center rounded-lg p-6 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
                 <h3 className="text-base md:text-lg font-semibold mb-2 text-center">
                   Monthly Reconciliation for Clean Books
                 </h3>
