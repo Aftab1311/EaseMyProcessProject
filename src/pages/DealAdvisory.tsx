@@ -56,9 +56,9 @@ const DealAdvisory = () => {
     </div> */}
 
     <div className="w-full flex justify-center flex-col items-center my-10">
-      <h1  className="text-4xl font-bold text-[#a60424] md:text-7xl my-6">Why Opt for  Us?</h1>
-      <h2 className="text-base md:text-xl w-[90%] text-center my-2 md:mb-10">
-      We offer unique solutions tailored to your needs.
+      <h1  className="text-3xl font-bold text-[#a60424] text-center w-full md:text-5xl my-6">Seamless Deal Execution, Tailored to Your Growth</h1>
+      <h2 className="text-base md:text-xl w-[100%] px-4 text-center my-2 md:mb-10">
+      Expert Deal Advisory & Start-Up Solutions: From Market Evaluation to Successful Deal Execution
       </h2>
      
       <div className="relative w-full h-[500px] flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-center my-28 md:my-20">

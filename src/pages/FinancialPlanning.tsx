@@ -181,9 +181,10 @@ const FinancialPlanning = () => {
   </div> */}
       
       <div className="text-center mt-[91px] md:mt-[80px] my-10">
-        <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] font-bold">Why Choose Us?</h1>
-        <h2 className="text-abse md:text-xl mb-28 md:mb-18">
-          Many companies require capital, but our approach is distinct:
+        <h1 className="text-3xl lg:text-5xl  mb-4 text-[#a60424] font-bold">Need to Optimize Growth with Data-Driven Financial Insights?</h1>
+        <h2 className="text-base md:text-xl mb-28 md:mb-18">
+        From In-Depth Analysis to Automated Solutions, Our Expertise Transforms Your Business for Lasting
+        Success.
         </h2>
       <div className="relative w-full h-[500px] flex flex-col gap-6 md:flex-row items-center justify-center my-20">
         {/* Central Circular Image */}

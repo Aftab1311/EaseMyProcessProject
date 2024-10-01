@@ -68,9 +68,10 @@ const PitchDeck = () => {
       <Hero items={pitchItems} />
 
       <div className="text-center mt-[91px] md:mt-[80px] flex flex-col items-center">
-        <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] font-bold">Why Choose Us?</h1>
-        <h2 className="text-base md:text-xl md:mb-8">
-          Many companies require capital, but our approach is distinct:
+        <h1 className="text-3xl lg:text-5xl mb-4 text-[#a60424] font-bold">Did you know? Investors Spend 3 Minutes Deciding Your Fate. 
+        </h1>
+        <h2 className="text-base md:text-xl px-4 md:my-6">
+        Don't Waste Them with a Weak Pitch Deck. Get Funded with Our Expertise.
         </h2>
         <div className="relative w-full h-[600px] flex gap-6 flex-col md:flex-row items-center justify-center my-10 md:my-20">
   {/* Central Image */}

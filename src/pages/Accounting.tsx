@@ -51,11 +51,12 @@ const Accounting = () => {
       <div className="w-full flex justify-center">
         <div className="w-full flex justify-center flex-col">
           <div className="flex justify-center w-full items-center md:mt-[80px] flex-col">
-            <h1 className="text-4xl md:text-7xl mb-4 text-[#a60424] text-center font-bold my-8">
-              Just Why Opt for EaseMyProcess?
+            <h1 className="text-3xl md:text-5xl mb-4 text-[#a60424] text-center font-bold my-8">
+            Need a Clear Financial Picture? 
+
             </h1>
-            <h2 className="w-full flex justify-center text-sm md:text-xl md:mb-8">
-            Reduce Your Accounting Expenses with Efficient, Smart Bookkeeping Solutions.
+            <h2 className=" flex justify-center text-sm md:text-xl md:mb-8 md:mt-4 px-4 text-center w-full">
+            From Launch to Scale-Up: Streamline Your Finance & Empower Growth. Get Clarity with Our Expertise.
             </h2>
           </div>
           <div className="relative w-full h-[500px] flex flex-col gap-6 md:flex-row items-center justify-center mt-20">

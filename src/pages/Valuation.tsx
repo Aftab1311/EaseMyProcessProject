@@ -83,9 +83,10 @@ const Valuation = () => {
 
         <div className="text-center mt-[41px] md:mt-[80px] w-full">
           <div className="my-14 md:my-0 flex flex-col items-center">
-          <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] text-center font-bold my-8">Why Choose Us?</h1>
-          <h2 className="text-sm w-[90%] md:w-full md:text-xl text-center mb-10  md:mb-8">
-            Many companies require capital, but our approach is distinct:
+          <h1 className="text-3xl lg:text-5xl mb-4 text-[#a60424] text-center font-bold my-8">Valuation seems a mystery box? 
+          </h1>
+          <h2 className="text-sm w-[100%] px-4 md:w-full md:text-xl text-center mb-10  md:mb-8">
+          We Crack the Code. Valuing your business, the right way.
           </h2>
           </div>
           <div className="relative w-full h-[600px] flex gap-6 flex-col md:flex-row items-center justify-center my-40 md:my-24">

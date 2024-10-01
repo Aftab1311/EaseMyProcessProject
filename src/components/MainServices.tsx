@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Raisers of Funds",
+    title: "Fund Raising",
     icon: <RiPresentationFill />,
     bg: "/images/hero/ser1.jpg",
     href: "/FundRaising",

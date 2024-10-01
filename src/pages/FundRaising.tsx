@@ -62,10 +62,11 @@ const FundRaising = () => {
 
       <Hero items={fundingItems} />
 
-      <div className="text-center mt-[91px] md:mt-[140px] ">
-        <h1 className="text-4xl lg:text-7xl mb-4 text-[#a60424] text-center font-bold my-4">Why Choose Us?</h1>
-        <h2 className="text-sm md:text-xl mb-32 md:mb-40 w-[90%] md:w-full">
-          Many companies require capital, but our approach is distinct:
+      <div className="flex flex-col justify-center w-full text-center mt-[91px] md:mt-[140px] ">
+        <h1 className="text-3xl lg:text-5xl my-6 text-[#a60424]  text-center font-bold">Looking to grow and scale your company? 
+        </h1>
+        <h2 className="text-sm md:text-xl mb-14 md:mb-40 w-[100%] px-4 md:px-0 md:w-full">
+        We at EaseMyProcess, help businesses at all stages of development secure the funding they need to align with their goals.
         </h2>
         <div className="relative w-full h-[400px] flex flex-col gap-6 md:gap-0 my-10 md:flex-row items-center justify-center">
   {/* Central Circular Image */}
