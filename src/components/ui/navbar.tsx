@@ -62,11 +62,11 @@ const Navbar = () => {
             <p className="text-sm">info@easemyprocess.com</p>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2">
-          <Link href="http://www.linkedin.com/in/gujrani" target="_blank" rel="noopener noreferrer">
+        <div className="flex justify-center items-center gap-6">
+          <Link href="https://www.instagram.com/ease.my.process?igsh=MXNpZWRmYXplZXo4Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-2xl text-white" />
           </Link>
-          <Link href="https://www.instagram.com/ease.my.process?igsh=MXNpZWRmYXplZXo4Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          <Link href="http://www.linkedin.com/in/gujrani" target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn className="text-2xl text-white" />
           </Link>
           
