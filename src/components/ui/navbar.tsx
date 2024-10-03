@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`text-black bg-white border-b border-[#D20420] py-3 px-4 md:px-6 lg:px-28 flex justify-between items-center flex-wrap bg-opacity-80 backdrop-blur-md ${poppins.className}`}
+        className={`text-black bg-white border-b border-[#D20420] py-3 px-4 md:px-6 lg:px-28 flex  justify-between items-center flex-wrap bg-opacity-80 backdrop-blur-md ${poppins.className}`}
       >
         <Link className="flex items-center" href="/">
           <Image
@@ -110,7 +110,7 @@ const Navbar = () => {
               key={item.id}
               className={`block md:inline-block ${
                 pathname.includes(item.link) ? activeLink : inactiveLink
-              } my-2 md:my-0 md:mx-2`}
+              } my-2 md:my-0 md:mx-2 `}
               onClick={() => setIsOpen(false)}
             >
               <span>{item.name}</span>
@@ -118,6 +118,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+
       </div>
     </div>
   );

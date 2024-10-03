@@ -23,10 +23,13 @@ export default function Footer({}: Props) {
           Business
         </p>
         <div className="flex justify-center items-center gap-4">
-          <FaFacebookF className="text-3xl text-white" />
-          <FaInstagram className="text-3xl text-white" />
-          <FaLinkedinIn className="text-3xl text-white" />
-          <PiXLogoDuotone className="text-3xl text-white" />
+          <Link href="https://www.instagram.com/ease.my.process?igsh=MXNpZWRmYXplZXo4Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="text-2xl text-white" />
+          </Link>
+          <Link href="http://www.linkedin.com/in/gujrani" target="_blank" rel="noopener noreferrer">
+          <FaLinkedinIn className="text-2xl text-white" />
+          </Link>
+          
         </div>
       </div>
       <hr className="my-4 border-white" />
