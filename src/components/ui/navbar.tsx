@@ -20,7 +20,6 @@ const navbarItems = [
   { id: 4, name: "Pitch Deck", link: "/PitchDeck" },
   { id: 5, name: "Accounting", link: "/Accounting" },
   { id: 6, name: "Financial Planning", link: "/FinancialPlanning" },
-
   { id: 7, name: "Deal Advisory", link: "/DealAdvisory" },
 ];
 
@@ -64,10 +63,13 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex justify-center items-center gap-2">
-          <FaFacebookF className="text-2xl text-white" />
+          <Link href="http://www.linkedin.com/in/gujrani" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-2xl text-white" />
+          </Link>
+          <Link href="https://www.instagram.com/ease.my.process?igsh=MXNpZWRmYXplZXo4Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn className="text-2xl text-white" />
-          <PiXLogoDuotone className="text-2xl text-white" />
+          </Link>
+          
         </div>
       </div>
       <div

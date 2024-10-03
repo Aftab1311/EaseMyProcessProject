@@ -239,7 +239,7 @@ export default function MainHero() {
                   className="hover:scale-110 transition duration-700"
                 />
                 <div className="absolute bottom-36 md:bottom-40 left-1/2  -translate-x-1/2 w-[40px] md:w-[60px] h-[40px] md:h-[60px] rounded-full bg-black group-hover:bg-[#007ab9] transition duration-700 cursor-pointer  bg-opacity-35 flex items-center justify-center">
-                  <a href="https://www.linkedin.com/in/anchal-singhal-248904122/">
+                  <a href="https://www.linkedin.com/in/anchal-singhal-248904122/" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/hero/linkedin.png"
                       alt="LinkedIn Icon"
@@ -413,7 +413,7 @@ export default function MainHero() {
                   className="hover:scale-110 transition duration-700"
                 />
                 <div className="absolute bottom-36 md:bottom-40 left-1/2  -translate-x-1/2 w-[40px] md:w-[60px] h-[40px] md:h-[60px] rounded-full bg-black group-hover:bg-[#007ab9] transition duration-700 cursor-pointer bg-opacity-35 flex items-center justify-center">
-                  <a href="https://www.linkedin.com/in/gujrani/">
+                  <a href="https://www.linkedin.com/in/gujrani/" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/hero/linkedin.png"
                       alt="LinkedIn Icon"
