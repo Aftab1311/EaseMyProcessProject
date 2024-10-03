@@ -114,7 +114,7 @@ const DealAdvisory = () => {
         {/* Top Left Box (optional) */}
         <div className="md:absolute md:-bottom-24 md:mt-10 md:left-[13%] md:transform  md:w-[30%] w-[90%] ">
           <div className="border border-gray-300 md:h-[160px] flex flex-col justify-center items-center rounded-lg p-5 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer">
-            <h3 className="text-base md:text-lg mb-2 font-bold text-center">client Focus:</h3>
+            <h3 className="text-base md:text-lg mb-2 font-bold text-center">Client Focus:</h3>
             <p className="text-[12px] md:text-sm text-center">
             In an economy that is expanding quickly, we address problems promptly and communicate effectively
             </p>
