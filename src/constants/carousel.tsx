@@ -187,12 +187,15 @@ export const dealItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
-      <div className="text-base md:text-[2.5rem] font-bold text-black">
+    <div className="absolute md:top-[20%] md:w-[60%] md:left-[24rem] p-4 text-white top-[4%] left-[2rem]">
+      <div className="text-sm md:text-[1.6rem] font-bold text-black">
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+          <span className="text-black">M&A transactions (whether local or cross-border) are involves various
+          laws and regulatiions.</span> Conduct transaction efficiently without hitting
+          any regulatory roadblock and optimising the associated costs
+          such as tax, etc.
         </span>
       </div>
     </div>
@@ -228,7 +231,11 @@ export const financialItems = [
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-        <span className="text-black">Employees spend 40% of their time on repetitive tasks and 9 out of 10 spreadsheets contain errors due to manual data entry.{""}</span> Get Accurate Insights & Boost Staff Efficiency by upto 60%.
+          <span className="text-black">
+            Employees spend 40% of their time on repetitive tasks and 9 out of
+            10 spreadsheets contain errors due to manual data entry.{""}
+          </span>{" "}
+          Get Accurate Insights & Boost Staff Efficiency by upto 60%.
         </span>
       </div>
     </div>
