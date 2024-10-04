@@ -45,8 +45,8 @@ export default function PitchPortfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline py-4">Food Delivery Deck</h1>
-            {/* <h3 className="text-sm md:text-base underline py-4">Project was based on valuation and information.</h3> */}
+            <h1 className="text-base md:text-xl underline ">Food Delivery Deck</h1>
+            <h3 className="text-sm md:text-base underline ">Investor Deck for food delivery start up</h3>
           </div>
         </div>
 
@@ -66,8 +66,8 @@ export default function PitchPortfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline py-4">IT Pitch Deck</h1>
-            {/* <h3 className="text-sm md:text-base underline py-4">Project was based on valuation and information.</h3> */}
+            <h1 className="text-base md:text-xl underline ">IT Pitch Deck</h1>
+            <h3 className="text-sm md:text-base underline ">Business profile for tech based start up</h3>
           </div>
         </div>
 
@@ -87,8 +87,8 @@ export default function PitchPortfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline py-4">CDS Pitch Deck</h1>
-            {/* <h3 className="text-sm md:text-base underline py-4">Project was based on valuation and information.</h3> */}
+            <h1 className="text-base md:text-xl underline ">CDS Pitch Deck</h1>
+            <h3 className="text-sm md:text-base underline ">Customer Outreach presentation</h3>
           </div>
         </div>
 
@@ -108,8 +108,8 @@ export default function PitchPortfolio() {
             style={{ transition: "1s" }}
           >
             <div className="absolute right-2 top-2 md:right-6 -rotate-90 group-hover:rotate-0" style={{ transition: "1s" }}><TfiArrowTopRight size={24} /></div>
-            <h1 className="text-base md:text-xl underline py-4">Anchor Profile Deck</h1>
-            {/* <h3 className="text-sm md:text-base underline py-4">Project was based on valuation and information.</h3> */}
+            <h1 className="text-base md:text-xl underline ">Anchor Profile Deck</h1>
+            <h3 className="text-sm md:text-base underline ">Professional profile for individuals</h3>
           </div>
         </div>
        
