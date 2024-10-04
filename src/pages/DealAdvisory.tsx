@@ -7,7 +7,7 @@ import HomeService from "@/components/HomeService";
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/ui/navbar";
 import DealProcess from "@/components/DealProcess";
-import Portfolio from "@/components/Portfolio";
+import Portfolio from "@/components/MainPortfolio";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { dealAdvisoryFaqs } from "@/constants/faqs";
@@ -56,7 +56,7 @@ const DealAdvisory = () => {
     </div> */}
 
     <div className="w-full flex justify-center flex-col items-center my-10">
-      <h1  className="text-3xl font-bold text-[#a60424] text-center w-full md:text-5xl my-6">Seamless Deal Execution, Tailored to Your Growth</h1>
+      <h1  className="text-3xl font-bold text-[#a60424] text-center w-full md:text-5xl my-6">Expert Deal Advisory: From Market Evaluation to Successful Deal Execution</h1>
       <h2 className="text-base md:text-xl w-[100%] px-4 text-center my-2 md:mb-10">
       Expert Deal Advisory & Start-Up Solutions: From Market Evaluation to Successful Deal Execution
       </h2>

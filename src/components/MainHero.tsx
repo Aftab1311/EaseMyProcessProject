@@ -7,7 +7,7 @@ import MainContact from "./MainContact";
 import Clients from "./Clients";
 import { GoArrowRight } from "react-icons/go";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import Portfolio from "./Portfolio";
+import Portfolio from "./MainPortfolio";
 import { Link } from "react-alice-carousel";
 
 export default function MainHero() {

@@ -4,27 +4,28 @@ import React from "react";
 const Process = () => {
   const sectionsData = [
     {
-      heading: "Market & Competitor Analysis",
-      description:
-        "We delve into your industry and competitors, uncovering trends and opportunities to position your business for success.",
-    },
-    {
-      heading: "Initial Consultation & Business Model Understanding",
+      heading: "Step 1 : Initial Consultation & Business Model Understanding",
       description:
         "We get to know your company, its vision, and your target audience to tailor the pitch deck message effectively.",
     },
     {
-      heading: "Financial Modeling",
+      heading: "Step 2 : Market & Competitor Analysis",
+      description:
+        "We delve into your industry and competitors, uncovering trends and opportunities to position your business for success.",
+    },
+    
+    {
+      heading: "Step 3 : Financial Modeling",
       description:
         "We create data-driven financial projections that showcase the potential profitability and growth trajectory of your business.",
     },
     {
-      heading: "Storyboarding & Content Preparation",
+      heading: "Step 4 : Storyboarding & Content Preparation",
       description:
         "We craft a compelling narrative with a clear structure, highlighting your problem, solution, market opportunity, and competitive edge.",
     },
     {
-      heading: "Graphic Design",
+      heading: "Step 5 : Graphic Design",
       description:
         "We transform your content into a visually engaging presentation with impactful visuals, data visualizations, and a consistent design aesthetic.",
     },
@@ -49,30 +50,33 @@ const Process = () => {
         <div className="hidden md:flex justify-evenly w-full relative my-10">
           <div className="w-[28%] flex flex-col gap-16 mt-10">
             <div className="w-[25%] flex flex-col gap-4 absolute left-28  top-[60px]">
-              <h1 className="text-[#d2042d] text-base font-bold">
-                Market & Competitor Analysis
+            <h1 className="text-[#d2042d] text-base font-bold">
+                Step 1 : Initial Consultation & Business Model Understanding
+              </h1>
+              <p className="text-sm text-justify">
+                We get to know your company, its vision, and your target
+                audience to tailor the pitch deck message effectively.
+              </p>
+              
+            </div>
+            <div className="w-[27%] flex flex-col gap-4 absolute left-10  top-[260px]">
+            <h1 className="text-[#d2042d] text-base font-bold">
+                Step 2 : Market & Competitor Analysis
               </h1>
               <p className="text-sm text-justify ">
                 We delve into your industry and competitors, uncovering trends
                 and opportunities to position your business for success.
               </p>
             </div>
-            <div className="w-[27%] flex flex-col gap-4 absolute left-10  top-[260px]">
-              <h1 className="text-[#d2042d] text-base font-bold">
-                Initial Consultation & Business Model Understanding
-              </h1>
-              <p className="text-sm text-justify">
-                We get to know your company, its vision, and your target
-                audience to tailor the pitch deck message effectively.
-              </p>
-            </div>
             <div className="w-[25%] flex flex-col gap-4 absolute left-48 top-[460px]">
+              
               <h1 className="text-[#d2042d] text-base font-bold">
-                Financial Modeling
+                Step 3 : Storyboarding & Content Preparation
               </h1>
-              <p className="text-sm text-justify">
-                We create data-driven financial projections that showcase the
-                potential profitability and growth trajectory of your business.
+              <p className="text-sm text-justify ">
+                We craft a compelling narrative with a clear structure,
+                highlighting your problem, solution, market opportunity, and
+                competitive edge.
               </p>
             </div>
           </div>
@@ -87,16 +91,15 @@ const Process = () => {
           </div>
           <div className="w-[28%] flex flex-col gap-16 mt-10">
             <div className="w-[25%] flex flex-col gap-4 absolute right-20 top-[60px] ">
-              <h1 className="text-[#d2042d] text-base font-bold">
-                Storyboarding & Content Preparation
+            <h1 className="text-[#d2042d] text-base font-bold">
+                Step 4 : Financial Modeling
               </h1>
-              <p className="text-sm text-justify ">
-                We craft a compelling narrative with a clear structure,
-                highlighting your problem, solution, market opportunity, and
-                competitive edge.
+              <p className="text-sm text-justify">
+                We create data-driven financial projections that showcase the
+                potential profitability and growth trajectory of your business.
               </p>
             </div>
-            <div className="w-[25%] flex flex-col gap-4 absolute right-14  top-[260px]">
+            {/* <div className="w-[25%] flex flex-col gap-4 absolute right-14  top-[260px]">
               <h1 className="text-[#d2042d] text-base font-bold">
                 Market & Competitor Analysis
               </h1>
@@ -104,10 +107,10 @@ const Process = () => {
                 We delve into your industry and competitors, uncovering trends
                 and opportunities to position your business for success.
               </p>
-            </div>
+            </div> */}
             <div className="w-[25%] flex flex-col gap-4 absolute right-48 top-[460px] ">
               <h1 className="text-[#d2042d] text-base font-bold">
-                Graphic Design
+                Step 5 : Graphic Design
               </h1>
               <p className="text-sm text-justify">
                 We transform your content into a visually engaging presentation

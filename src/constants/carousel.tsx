@@ -26,12 +26,13 @@ export const fundingItems = [
       height={2000}
       className={` h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[10%] left-[12rem]">
+    <div className="absolute md:w-[50%] w-[65%] md:top-[10%] md:left-[10rem] p-4 text-white top-[6%] left-[1rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-black">
         {/* Did You Know? */}
         <br />
-        <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+        <span className="text-[#100709]">
+          Thousands of businesses seek funding each day.{" "}
+          <span className="text-[#D2042D]">What makes you stand out?</span>
         </span>
       </div>
     </div>
@@ -47,7 +48,7 @@ export const valuationItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[40%] md:left-[38rem] p-4 text-white top-[14%] left-[10rem]">
+    <div className="absolute md:top-[60%] md:left-[48rem] w-[60%] md:w-[50%] p-4 text-white top-[6%] left-[2rem]">
       <div className="text-base md:text-[2.5rem] font-bold">
         Turn Data into Value—Get{" "}
         <span className="text-[#D2042D]">
@@ -64,12 +65,13 @@ export const valuationItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[40%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
-      <div className="text-base md:text-[2.5rem] font-bold text-white">
+    <div className="absolute md:top-[60%] md:left-[50rem] w-[60%] md:w-[50%] p-4 text-white top-[6%] left-[2rem]">
+      <div className="text-lg md:text-[2.5rem] font-bold text-white">
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+          <span className="text-white">Need a valuation </span>that stands
+          up to scrutiny?
         </span>
       </div>
     </div>
@@ -103,12 +105,16 @@ export const pitchItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
+    <div className="absolute md:top-[30%] w-[70%] md:w-[50%] md:left-[44rem] p-4 text-white top-[15%] left-[8rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
         {/* Did You Know? */}
         <br />
-        <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+        <span className="text-[#000000]">
+          <span className=" text-[#D2042D]">
+            75% Increase in chances of closing a deal, with Wall Street-level
+            Pitch Decks,
+          </span>{" "}
+          Business Plans, and Teasers and Advanced Financial Models
         </span>
       </div>
     </div>
@@ -141,12 +147,15 @@ export const accountingItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
+    <div className="absolute md:top-[10%] md:left-[10rem] w-[70%] md:w-[50%] p-4 text-white top-[6%] left-[2rem]">
       <div className="text-base md:text-[2.5rem] font-bold text-white">
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+          <span className="text-white">
+            Save 60% of accounting and compliance cost with Smart bookkeeping.{" "}
+          </span>{" "}
+          Powered by professionals. Backed by technology
         </span>
       </div>
     </div>
@@ -162,13 +171,11 @@ export const dealItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[40rem] p-4 text-white top-[14%] left-[10rem]">
+    <div className="absolute md:top-[40%] md:left-[40rem] p-4 text-white top-[44%] left-[9rem]">
       <div className="text-[14px] md:text-[2.5rem] font-bold">
-        Providing Expert Deal Advice <br />
-        <span className="text-[#D2042D]">
-          and Startup Solutions to <br />
-          Help Your Business
-        </span>
+        Build Smart, Exit Strong
+        <br />
+        <span className="text-[#D2042D]">Invest Smart, Exit Strong </span>
       </div>
     </div>
   </div>,
@@ -216,12 +223,12 @@ export const financialItems = [
       height={2000}
       className={`object-cover h-[300px] md:h-[700px]`}
     />
-    <div className="absolute md:top-[30%] md:left-[50rem] p-4 text-white top-[12%] left-[12rem]">
-      <div className="text-base md:text-[2.5rem] font-bold text-black">
+    <div className="absolute md:top-[20%] md:left-[44rem] p-4 text-white top-[4%] left-[4rem]">
+      <div className="text-base md:text-[2.2rem] font-bold text-black">
         {/* Did You Know? */}
         <br />
         <span className="text-[#D2042D]">
-          {/* Investors Spend 3 minutes <br /> Deciding Your Fate */}
+        <span className="text-black">Employees spend 40% of their time on repetitive tasks and 9 out of 10 spreadsheets contain errors due to manual data entry.{""}</span> Get Accurate Insights & Boost Staff Efficiency by upto 60%.
         </span>
       </div>
     </div>

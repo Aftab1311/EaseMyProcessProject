@@ -7,13 +7,14 @@ import HomeService from "@/components/HomeService";
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/ui/navbar";
 import Process from "@/components/Process";
-import Portfolio from "@/components/Portfolio";
+import Portfolio from "@/components/MainPortfolio";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { pitchFaqs } from "@/constants/faqs";
 import { pitchItems } from "@/constants/carousel";
 import Pitch from "@/components/Pitch";
 import Image from "next/image";
+import PitchPortfolio from "@/components/PitchPortfolio";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -124,6 +125,7 @@ const PitchDeck = () => {
       <Pitch />
       <ContactUs />
       <Process />
+      <PitchPortfolio />
 
       <FAQs FaqTableData={pitchFaqs} heading="FAQs" />
       <Footer />

@@ -7,13 +7,14 @@ import HomeService from "@/components/HomeService";
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/ui/navbar";
 import Process from "@/components/Process";
-import Portfolio from "@/components/Portfolio";
+import Portfolio from "@/components/MainPortfolio";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { accountingFaqs } from "@/constants/faqs";
 import { accountingItems } from "@/constants/carousel";
 import Compilance from "@/components/Accounting";
 import Image from "next/image";
+import AccSoft from "@/components/AccSoft";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -122,7 +123,8 @@ const Accounting = () => {
 
       <Compilance />
       <ContactUs />
-      <Process />
+      {/* <Process /> */}
+      <AccSoft/>
 
       <FAQs FaqTableData={accountingFaqs} heading="FAQs" />
       <Footer />

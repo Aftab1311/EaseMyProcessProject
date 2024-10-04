@@ -82,7 +82,7 @@ export default function Planning() {
                 <div className="absolute -mt-6 group-hover:mt-8 md:group-hover:mt-10 bg-red-600 transition group-hover:duration-300 group-hover:rounded-xl group-hover:border-2 group-hover:border-red-600 p-2 rounded-full text-3xl text-white mx-auto shadow-xl group-hover:bg-white group-hover:text-red-600">
                   {fund.icon}
                 </div>
-                <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-lg">
+                <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-24 md:group-hover:mt-24 group-hover:text-lg">
                   {fund.title}
                 </h3>
                 <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[10px] md:group-hover:text-[12px]">
@@ -115,7 +115,7 @@ export default function Planning() {
             <div className="absolute -mt-6 group-hover:mt-8 md:group-hover:mt-10 bg-red-600 transition group-hover:duration-300 group-hover:rounded-xl group-hover:border-2 group-hover:border-red-600 p-2 rounded-full text-3xl text-white mx-auto shadow-xl group-hover:bg-white group-hover:text-red-600">
               {fund.icon}
             </div>
-            <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-16 md:group-hover:mt-24 group-hover:text-lg">
+            <h3 className="text-2xl text-red-600 font-semibold p-2 text-center mt-4 group-hover:mt-24 md:group-hover:mt-24 group-hover:text-lg">
               {fund.title}
             </h3>
             <span className="mx-6 md:my-2 text-sm text-center opacity-0 group-hover:opacity-100 transition group-hover:duration-100 group-hover:delay-300 group-hover:text-[10px] md:group-hover:text-[12px]">

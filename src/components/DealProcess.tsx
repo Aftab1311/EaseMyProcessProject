@@ -4,27 +4,27 @@ import React from "react";
 const DealProcess = () => {
   const sectionsData = [
     {
-      heading: "Trageting",
+      heading: "Step 1 : Trageting",
       description:
         "Identify targets or buyers in sectors and markets that align with your investment strategy",
     },
     {
-      heading: "Valuation",
+      heading: "Step 2 : Valuation",
       description:
         "Using internationally accepted valuation approaches (Income approach, Market approach, Milestone approach)",
     },
     {
-      heading: "Due diligence support",
+      heading: "Step 3 : Due diligence support",
       description:
         "Liaising with parties for smooth workflow, timely discussions on red flags and Corporate Tax Due Diligence ",
     },
     {
-      heading: "Deal Structuring",
+      heading: "Step 4 : Deal Structuring",
       description:
         "Structuring of deals from tax/regulatory standpoint including advice on legal structure of business entity.",
     },
     {
-      heading: "Transaction implementation support ",
+      heading: "Step 5 : Transaction implementation support ",
       description:
         " Review of transaction documents",
     },
@@ -50,7 +50,7 @@ const DealProcess = () => {
           <div className="w-[28%] flex flex-col gap-16 mt-10">
             <div className="w-[25%] flex flex-col gap-4 absolute left-28  top-[60px]">
               <h1 className="text-[#d2042d] text-base font-bold">
-              Targeting
+              Step 1 : Targeting
               </h1>
               <p className="text-sm text-justify ">
               Identify targets or buyers in sectors and markets that align with your investment strategy
@@ -58,7 +58,7 @@ const DealProcess = () => {
             </div>
             <div className="w-[27%] flex flex-col gap-4 absolute left-10  top-[260px]">
               <h1 className="text-[#d2042d] text-base font-bold">
-              Valuation
+              Step 2 : Valuation
               </h1>
               <p className="text-sm text-justify">
               Using internationally accepted valuation approaches (Income approach, Market approach, Milestone approach)
@@ -66,7 +66,7 @@ const DealProcess = () => {
             </div>
             <div className="w-[25%] flex flex-col gap-4 absolute left-48 top-[460px]">
               <h1 className="text-[#d2042d] text-base font-bold">
-              Due diligence support
+              Step 3 : Due diligence support
               </h1>
               <p className="text-sm text-justify">
               Liaising with parties for smooth workflow, timely discussions on red flags and Corporate Tax Due Diligence.
@@ -85,7 +85,7 @@ const DealProcess = () => {
           <div className="w-[28%] flex flex-col gap-16 mt-10">
             <div className="w-[25%] flex flex-col gap-4 absolute right-20 top-[60px] ">
               <h1 className="text-[#d2042d] text-base font-bold">
-              Deal Structuring
+              Step 4 : Deal Structuring
               </h1>
               <p className="text-sm text-justify ">
               Structuring of deals from tax/regulatory standpoint including advice on legal structure of business entity.
@@ -93,7 +93,7 @@ const DealProcess = () => {
             </div>
             <div className="w-[25%] flex flex-col gap-4 absolute right-14  top-[260px]">
               <h1 className="text-[#d2042d] text-base font-bold">
-              Transaction implementation support 
+              Step 5 : Transaction implementation support 
               </h1>
               <p className="text-sm text-justify">
               "Review of transaction documents"

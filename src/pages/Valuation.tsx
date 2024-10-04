@@ -7,13 +7,14 @@ import HomeService from "@/components/HomeService";
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/ui/navbar";
 import Process from "@/components/Process";
-import Portfolio from "@/components/Portfolio";
+import Portfolio from "@/components/MainPortfolio";
 import FAQs from "@/components/ui/FAQs";
 import Footer from "@/components/ui/footer";
 import { valuationFaqs } from "@/constants/faqs";
 import { valuationItems } from "@/constants/carousel";
 import Variable from "@/components/Valuation";
 import Image from "next/image";
+import ValSoft from "@/components/ValSoft";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -147,7 +148,8 @@ const Valuation = () => {
 
       <Variable />
       <ContactUs />
-      <Process />
+      {/* <Process /> */}
+      <ValSoft/>
 
       <FAQs FaqTableData={valuationFaqs} heading="FAQs" />
       <Footer />
