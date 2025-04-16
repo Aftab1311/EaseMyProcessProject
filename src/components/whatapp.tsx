@@ -3,16 +3,16 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 const WhatsappButton = () => {
     const handleWhatsappClick = () => {
-        window.open('', '_blank');
+        window.open('https://wa.link/1hidyq', '_blank');
     };
 
     const logo = [
         {
-          id: 1,
-        name: "Have Questions?",
-          designation: "Reach out to us on WhatsApp!",
-          image:
-            "/WhatsApp.png",
+            id: 1,
+            name: "Have Questions?",
+            designation: "Reach out to us on WhatsApp!",
+            image:
+                "/WhatsApp.png",
         },];
 
     return (
